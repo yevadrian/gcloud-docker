@@ -21,4 +21,4 @@
 > python3 main.py [URL] [FILENAME] [BUCKET]
 
 ##### Example:
-> python3 main.py https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.04162018.pdf nist-framework data-fellowship-8-yevadrian
+> python3 main.py https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.04162018.pdf nist-cybersecurity-framework data-fellowship-8-yevadrian
