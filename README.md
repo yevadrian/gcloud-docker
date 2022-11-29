@@ -1,8 +1,8 @@
-## Upload remote files to your Google Cloud Storage.
+## Upload remote files to your Google Cloud Storage with Docker container.
 
-##### Create a json file containing your service account credentials as "key.json" in your current working directory.
+##### Create a json file containing your service account credentials as "key.json" in your home directory.
 
-##### Save the Python script "main.py" to your current working directory. 
+##### Save the Python script "main.py" to your home directory. 
 > wget https://raw.githubusercontent.com/yevadrian/gcloud_docker/main/main.py
 
 ##### Create Google Cloud SDK container with volume mapping:
