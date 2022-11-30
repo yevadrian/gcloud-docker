@@ -1,4 +1,4 @@
-## Upload remote files to your Google Cloud Storage with Docker container.
+## Upload remote files to your Google Cloud Storage via Docker container.
 
 ##### Create a json file containing your service account credentials as "key.json" in your home directory.
 
