@@ -3,7 +3,7 @@
 ##### Modify "key.json" according to your Google service account credentials
 > nano key.json
 
-##### Create Google Cloud SDK container with volume and environment
+##### Create Google Cloud SDK container with Docker Compose
 > sudo docker compose up
 
 ##### Install required Python packages
