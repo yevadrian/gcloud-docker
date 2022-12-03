@@ -1,0 +1,18 @@
+version: '3'
+
+name: gcloud
+
+services:
+  gcloud:
+    container_name: gcloud
+    image: google/cloud-sdk:latest
+    environment:
+      GOOGLE_APPLICATION_CREDENTIALS: /key.json
+    volumes:
+      - ./main.py:/main.py
+      - ./key.json:/key.json
+    restart: always
+    tty: true
+
+volumes:
+  gcloud:
