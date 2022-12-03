@@ -12,5 +12,5 @@
 ##### Run the script to upload a remote file
 > sudo docker exec -it gcloud sh -c "python3 main.py [URL] [FILENAME] [BUCKET]"
 
-##### Example
+##### Example command
 > sudo docker exec -it gcloud sh -c "python3 main.py https://engage.mitre.org/wp-content/uploads/2022/02/EngageHandbook.pdf mitre-engage-handbook.pdf data-fellowship-8-yevadrian"
