@@ -1,6 +1,6 @@
 ## Upload remote files to your Google Cloud Storage with Google Cloud SDK on Docker.
 
-##### Modify "key.json" according to your service account credentials.
+##### Modify "key.json" according to your Google service account credentials.
 > nano key.json
 
 ##### Create Google Cloud SDK container with volume and environment:
@@ -13,4 +13,4 @@
 > sudo docker exec -it gcloud sh -c "python3 main.py [URL] [FILENAME] [BUCKET]"
 
 ##### Example:
-> sudo docker exec -it gcloud sh -c "python3 main.py https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.04162018.pdf nist-cybersecurity-framework data-fellowship-8-yevadrian"
+> sudo docker exec -it gcloud sh -c "python3 main.py https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.04162018.pdf nist-cybersecurity-framework.pdf data-fellowship-8-yevadrian"
