@@ -4,7 +4,7 @@
 > nano key.json
 
 ##### Create Google Cloud SDK container with Docker Compose
-> sudo docker compose up
+> sudo docker compose up -d
 
 ##### Install required Python packages
 > sudo docker exec -it gcloud sh -c "pip install google-cloud-storage && pip install wget"
