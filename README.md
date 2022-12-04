@@ -9,7 +9,7 @@
 ##### Install required Python packages
 > sudo docker exec -it gcloud sh -c "pip install google-cloud-storage && pip install wget"
 
-##### Run the script to upload a remote file
+##### Run the Python script to upload remote files to your Google Cloud Storage
 > sudo docker exec -it gcloud sh -c "python3 main.py [URL] [FILENAME] [BUCKET]"
 
 ##### Example command
