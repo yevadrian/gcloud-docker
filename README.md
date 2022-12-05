@@ -1,5 +1,8 @@
 ### Upload remote files to Google Cloud Storage with Google Cloud SDK on Docker
 
+##### Clone this repository and enter the directory
+> git clone https://github.com/yevadrian/gcloud-docker && cd gcloud-docker
+
 ##### Modify "key.json" according to your Google service account credentials
 > nano key.json
 
